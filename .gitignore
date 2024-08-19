@@ -1,0 +1,8 @@
+.git
+.idea
+package-lock.json
+gulp
+node_modules
+/dist/**
+!/dist/**/
+!/dist/**/.gitkeep
