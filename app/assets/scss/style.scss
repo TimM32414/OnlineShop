@@ -1,12 +1,18 @@
+@import 'variables/icons';
+@import 'variables/theme';
+
+@import 'mixins/path';
+@import 'mixins/font-face';
+@import 'mixins/font-size';
+@import 'mixins/breakpoints';
+@import 'mixins/icon';
+
+@import '../vendor/normalize/scss/normalize';
+
+@import 'components/base';
+@import 'components/fonts';
+@import 'components/icons';
+@import 'components/lists';
+
 @import 'layout/header';
 @import 'layout/footer';
-
-.main {
-	padding:0;
-	display: flex;
-	
-	.inner {
-		margin:0;
-		padding:0;
-	}
-}

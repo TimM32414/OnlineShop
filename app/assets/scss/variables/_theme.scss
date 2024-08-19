@@ -1,0 +1,94 @@
+// Breakpoints
+$grid-breakpoints: (
+	// Extra small screen / phone
+	xs: 0,
+	// mobile landscape
+	ms: 568px,
+	// tablet portrait
+	sm: 768px,
+	// tablet landscape
+	md: 1024px,
+	// desktop
+	lg: 1200px,
+	// desktop large
+	xl: 1920px
+);
+
+// Colors
+$color-black:       #000000;
+$color-black-light: #222222;
+$color-white:       #ffffff;
+$color-red:         #cf1a43;
+$color-rose:        #f16d7f;
+$color-rose-dark:   #ef5b70;
+$color-green:       #6aa029;
+$color-yellow:      #f0c000;
+$color-gray:        #5d5d5d;
+$color-gray-light:  #f8f8f8;
+$color-gray-dark:   $color-black-light;
+
+$border-color:       #a4a4a4;
+$border-color-light: #e1e1e1;
+
+$body-bg:            $color-white;
+$header-bg:          $color-gray-dark;
+$intro-bg:           #f1e4e6;
+$content-element-bg: $color-gray-light;
+$footer-bg:          #f4f4f4;
+$footer-bg-dark:     $color-gray-dark;
+
+$text-color: $color-gray;
+$link-color: $color-gray;
+
+$deco-color:      $color-rose;
+$deco-color-dark: $color-rose-dark;
+
+$color-error:   $color-red;
+$color-success: $color-green;
+
+$intro-text-color: $color-gray-dark;
+
+$headline-header-color: $color-gray-dark;
+$headline-text-color:   #9f9f9f;
+
+
+
+// Typography
+$font-size-xxs:  10px;
+$font-size-xs:   12px;
+$font-size-s:    14px;
+$font-size-m:    16px;
+$font-size-l:    18px;
+$font-size-xl:   20px;
+$font-size-xxl:  22px;
+$font-size-xxxl: 24px;
+
+$font-family-base:    ('lato', sans-serif);
+$font-size-base:      0.875rem;
+$font-weight-light:   300;
+$font-weight-regular: 400;
+$font-weight-bold:    700;
+$line-height-base:    1.5 !default;
+
+$font-size-h1: $font-size-xxxl;
+$font-size-h2: $font-size-xxl;
+$font-size-h3: $font-size-xl;
+$font-size-h4: $font-size-l;
+$font-size-h5: $font-size-m;
+$font-size-h6: $font-size-s;
+
+// Spacing
+$spacing: 0.313rem; //5px
+$spacing-col: calc($spacing * 3 / 2);  //7.5px
+
+$spacing-10: calc($spacing * 2);  //10px
+$spacing-15: calc($spacing * 3);  //15px
+$spacing-20: calc($spacing * 4);  //20px
+$spacing-25: calc($spacing * 5);  //25px
+$spacing-30: calc($spacing * 6);  //30px
+$spacing-35: calc($spacing * 7);  //35px
+$spacing-40: calc($spacing * 8);  //40px
+$spacing-45: calc($spacing * 9);  //45px
+$spacing-50: calc($spacing * 10); //50px
+$spacing-55: calc($spacing * 11); //55px
+$spacing-60: calc($spacing * 12); //60px

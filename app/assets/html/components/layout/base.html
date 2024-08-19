@@ -13,7 +13,9 @@
 
 	@@pageContent
 
-	@@include('footer.html', {})
+	@@include('footer.html', {
+		"pageContent": "@@pageContent"
+	})
 
 	<script src="js/main.min.js"></script>
 </body>
