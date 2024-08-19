@@ -15,7 +15,6 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify-es').default;
 
 /* Img */
-const avif = require("gulp-avif");
 const webp = require("gulp-webp");
 const imagemin = require("gulp-imagemin");
 const svgsprite = require("gulp-svg-sprite");
@@ -81,14 +80,14 @@ function images() {
     return src([
         'app/assets/img/**/*.*', '!app/assets/img/**/*.svg'
     ], {base: 'app/assets/img'})
-        .pipe(newer('app/img'))
+        /*.pipe(newer('app/img'))
         .pipe(avif({quality: 50}))
-        .pipe(src('app/assets/img/**/*.*'))
+        .pipe(src('app/assets/img/!**!/!*.*'))
         .pipe(newer('app/img'))
         .pipe(webp())
-        .pipe(src('app/assets/img/**/*.*'))
+        .pipe(src('app/assets/img/!**!/!*.*'))
         .pipe(newer('app/img'))
-        .pipe(imagemin())
+        .pipe(imagemin())*/
         .pipe(dest('app/img'))
 }
 
@@ -130,6 +129,7 @@ function browsersync() {
         port: 4000
     });
 }
+
 function cleanDist() {
     return src('dist')
         .pipe(clean())
@@ -148,8 +148,8 @@ function buildDist() {
 
 exports.svgSprite = svgSprite;
 
-exports.images = images;
-exports.fonts = fonts;
+//exports.images = images;
+//exports.fonts = fonts;
 
 const develop = parallel(html, styles, scripts, images, fonts);
 exports.build = series(cleanDist, buildDist);
