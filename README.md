@@ -1,7 +1,3 @@
-# Quelle
-https://www.youtube.com/watch?v=Hh1aDoWMJXA
-https://www.youtube.com/watch?v=ODl2iCkIPpg
-
 # node.js installieren (18.12.1)
 https://nodejs.org/en/download/prebuilt-installer
 
