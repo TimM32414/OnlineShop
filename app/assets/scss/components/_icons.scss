@@ -1,0 +1,42 @@
+[class^="icon__"],
+[class*=" icon__"] {
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	speak: none;
+	font-family: $icon-fontname;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@include icon(angle-down, $icon-angle-down);
+@include icon(angle-left, $icon-angle-left);
+@include icon(angle-right, $icon-angle-right);
+@include icon(angle-up, $icon-angle-up);
+@include icon(bars, $icon-bars);
+@include icon(cart, $icon-cart);
+@include icon(check, $icon-check);
+@include icon(crown, $icon-crown);
+@include icon(discount, $icon-discount);
+@include icon(facebook, $icon-facebook);
+@include icon(filter, $icon-filter);
+@include icon(instagram, $icon-instagram);
+@include icon(long-arrow-down, $icon-long-arrow-down);
+@include icon(long-arrow-left, $icon-long-arrow-left);
+@include icon(long-arrow-right, $icon-long-arrow-right);
+@include icon(long-arrow-up, $icon-long-arrow-up);
+@include icon(map-marker, $icon-map-marker);
+@include icon(minus, $icon-minus);
+@include icon(pinterest, $icon-pinterest);
+@include icon(plus, $icon-plus);
+@include icon(search, $icon-search);
+@include icon(times, $icon-times);
+@include icon(truck, $icon-truck);
+@include icon(twitter, $icon-twitter);
+@include icon(user, $icon-user);
+@include icon(youtube-play, $icon-youtube-play);

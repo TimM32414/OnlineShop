@@ -1,0 +1,80 @@
+ol,
+ul {
+	margin-bottom: $spacing-15;
+	padding-left:0;
+	list-style: none;
+	list-style-position: outside;
+	
+	&:not(:last-child) {
+		margin-bottom: $spacing-15;
+	}
+	
+	li:not(:last-of-type) {
+		margin-bottom: $spacing;
+	}
+	
+	&.check,
+	&.decimal,
+	&.disc,
+	&.lower-latin,
+	&.square {
+		padding-left: $spacing-10;
+		
+		li {
+			margin-left: $spacing;
+		}
+	}
+	
+	&.check {
+		padding-left: $spacing-10;
+		
+		li {
+			position: relative;
+			
+			&:before {
+				left: -19.5px;
+				font-family: $icon-fontname !important;
+				content: $icon-check;
+				position: absolute;
+			}
+		}
+	}
+	
+	&.decimal {
+		
+		li {
+			list-style: decimal !important;
+		}
+	}
+	
+	&.disc {
+		
+		li {
+			list-style: disc !important;
+		}
+	}
+	
+	&.lower-latin {
+		
+		li {
+			list-style: lower-latin !important;
+		}
+	}
+	
+	&.square {
+		
+		li {
+			list-style: square !important;
+		}
+	}
+
+
+	#xyz {
+		margin: 5px 10px 15px 20px;
+			/*margin-top: 5px;
+			margin-right: 10px;
+			margin-bottom: 15px;
+			margin-left: 20px;*/
+		padding:0;
+	}
+}
