@@ -1,0 +1,45 @@
+.product-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.product-item {
+
+	.mode--grid & {
+		flex-basis: 100%;
+
+		@media(min-width: 568px) {
+			flex-basis: calc((100% - $spacing-30) / 2);
+		}
+
+		@media(min-width: 768px) {
+			flex-basis: calc((100% - 2 * $spacing-30) / 3);
+		}
+	}
+
+	.mode--list & {
+		display: flex;
+		flex-basis: 100%;
+
+		@media(min-width: 768px) {
+			flex-basis: calc((100% - $spacing-30) / 2);
+		}
+	}
+
+	&__body {
+
+		.mode--list & {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+
+	&__price {
+
+		.mode--list & {
+			@include font-size(20px);
+		}
+	}
+}
