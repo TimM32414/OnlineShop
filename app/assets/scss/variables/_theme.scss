@@ -51,7 +51,40 @@ $intro-text-color: $color-gray-dark;
 $headline-header-color: $color-gray-dark;
 $headline-text-color:   #9f9f9f;
 
+$form-background-color:  #e1e1e1;
+$form-border-color:      $border-color;
+$form-text-color:        $color-gray-dark;
+$form-placeholder-color: #b1b1b1;
 
+$outline-color: $color-yellow;
+
+$button-primary-background-color:       $color-rose;
+$button-primary-border-color:           $color-rose;
+$button-primary-text-color:             $color-white;
+$button-primary-hover-background-color: $color-white;
+$button-primary-hover-border-color:     $color-rose;
+$button-primary-hover-text-color:       $color-rose;
+
+$button-primary-negative-background-color:       $color-white;
+$button-primary-negative-border-color:           $color-rose;
+$button-primary-negative-text-color:             $color-rose;
+$button-primary-negative-hover-background-color: $color-rose;
+$button-primary-negative-hover-border-color:     $color-rose;
+$button-primary-negative-hover-text-color:       $color-white;
+
+$button-ghost-background-color:       $border-color;
+$button-ghost-border-color:           $border-color;
+$button-ghost-text-color:             $color-white;
+$button-ghost-hover-background-color: $color-white;
+$button-ghost-hover-border-color:     $border-color;
+$button-ghost-hover-text-color:       $color-gray;
+
+$button-ghost-negative-background-color:       $color-white;
+$button-ghost-negative-border-color:           $border-color;
+$button-ghost-negative-text-color:             $color-gray;
+$button-ghost-negative-hover-background-color: $border-color;
+$button-ghost-negative-hover-border-color:     $border-color;
+$button-ghost-negative-hover-text-color:       $color-white;
 
 // Typography
 $font-size-xxs:  10px;

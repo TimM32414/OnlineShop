@@ -12,7 +12,13 @@
 @import 'components/base';
 @import 'components/fonts';
 @import 'components/icons';
+@import 'components/buttons';
 @import 'components/lists';
+@import 'components/forms';
+
+@import 'widgets/product-item';
 
 @import 'layout/header';
 @import 'layout/footer';
+
+@import 'pages/catalog';
