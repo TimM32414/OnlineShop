@@ -8,16 +8,12 @@
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-
-	@@include('header.html', {})
-
-	@@pageContent
-
-	@@include('footer.html', {
-		"pageContent": "@@pageContent"
+	@@include('page.html', {
+		"pageTemplate": "@@pageTemplate",
+		"pageSlider": "@@pageSlider",
+		"teaserGrid": "@@teaserGrid",
+		"productGrid": "@@productGrid"
 	})
-
 	<script src="js/main.min.js"></script>
 </body>
 </html>
-
