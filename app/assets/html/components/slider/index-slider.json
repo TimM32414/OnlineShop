@@ -1,0 +1,26 @@
+[
+  {
+    "slider": [
+      {
+        "Content": [
+          {
+            "slideTitle": "THE BRAND<span>OF LUXERIOUS <span>FASHION</span></span>",
+            "slidePictureUrl": "img/slider/product-01.jpg",
+            "slidePictureMlUrl": "img/slider/ml/product-01.jpg",
+            "slidePictureTpUrl": "img/slider/tp/product-01.jpg",
+            "slidePictureTlUrl": "img/slider/tl/product-01.jpg",
+            "slidePictureDeUrl": "img/slider/de/product-01.jpg"
+          },
+          {
+            "slideTitle": "THE BRAND<span>OF LUXERIOUS <span>FASHION</span></span>",
+            "slidePictureUrl": "img/slider/product-02.jpg",
+            "slidePictureMlUrl": "img/slider/ml/product-02.jpg",
+            "slidePictureTpUrl": "img/slider/tp/product-02.jpg",
+            "slidePictureTlUrl": "img/slider/tl/product-02.jpg",
+            "slidePictureDeUrl": "img/slider/de/product-02.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+<div class="teaser-grid">
+	@@for (var i = 0; i < teaser.length; i++) {
+		@@loop('teaset-item.html', `+(JSON.stringify(teaser[i].Content))+`)
+	}
+</div>
+

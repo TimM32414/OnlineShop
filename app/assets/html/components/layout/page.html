@@ -1,0 +1,12 @@
+
+@@include('../../components/layout/header.html', {})
+
+<main>
+	@@include('@@pageTemplate', {
+		"pageSlider": "@@pageSlider",
+		"teaserGrid": "@@teaserGrid",
+		"productGrid": "@@productGrid"
+	})
+</main>
+
+@@include('../../components/layout/footer.html', {})

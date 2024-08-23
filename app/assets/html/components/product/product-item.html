@@ -1,0 +1,31 @@
+<article class="product-item">
+	<div class="product-item__picture">
+		<picture>
+			<source srcset="@@productImg.webp" type="image/webp" width="360" height="420">
+			<img src="@@productImg.jpg" alt="Ellry X M'O capsule" width="360" height="420">
+		</picture>
+		<a href="cart.html" title="@@productName">
+			<span class="btn btn__ghost--negative btn--transparent">
+				<i class="icon__cart"></i>Add to Cart
+			</span>
+		</a>
+	</div>
+	<div class="product-item__body">
+		<div class="product-item__description">
+			<a href="product.html" title="@@productName" class="product-item__title">@@productName</a>
+			<p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+		</div>
+		<div class="product-item__prices">
+			@@if (productSalePrice !== '') {
+			<div class="product-item__price product-item__price--through">
+			}
+				$52.00
+				@@if (productSalePrice !== '') {
+			</div>
+			<div class="product-item__price product-item__price--sale">
+				$25.00
+			</div>
+			}
+		</div>
+	</div>
+</article>

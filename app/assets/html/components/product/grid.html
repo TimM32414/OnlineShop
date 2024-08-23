@@ -1,0 +1,5 @@
+<div class="product-grid mode--grid">
+	@@for (var i = 0; i < product.length; i++) {
+		@@loop('product-item.html', `+(JSON.stringify(product[i].Content))+`)
+	}
+</div>

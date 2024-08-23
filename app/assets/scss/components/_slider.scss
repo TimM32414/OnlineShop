@@ -1,0 +1,41 @@
+.splide {
+	background: $slider-background-color;
+
+	&__slide {
+		position: relative;
+	}
+	picture {
+		display: flex;
+		justify-content: center;
+	}
+
+	h2 {
+		bottom: 20px;
+		left:50%;
+		max-width: 310px;
+		margin-top: -39px;
+		margin-left: -150px;
+		padding: $spacing-10;
+		border-left: 5px solid $deco-color-dark;
+		background: rgba($color-white, .7);
+		position: absolute;
+
+		@media(min-width: 768px) {
+			top: 50%;
+			bottom: unset;
+			margin-left: 100px;
+		}
+		@media(min-width: 1200px) {
+			margin-left: 150px;
+		}
+
+		> span {
+			display: block;
+
+			span {
+				color: $deco-color;
+			}
+		}
+	}
+
+}
