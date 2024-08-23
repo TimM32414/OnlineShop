@@ -70,6 +70,7 @@ function styles() {
 function scripts() {
     return src([
         'node_modules/jquery/dist/jquery.min.js',
+        'node_modules/@splidejs/splide/dist/js/splide.js',
         'app/assets/vendor/custom-file-input/js/custom-file-input.js',
         'app/assets/js/main.js'
     ])

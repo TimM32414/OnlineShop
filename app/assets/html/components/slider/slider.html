@@ -1,0 +1,17 @@
+<div class="splide" aria-label="OnlineShop Slider">
+	<div class="splide__track">
+		<ul class="splide__list">
+			@@for (var i = 0; i < slider.length; i++) {
+				@@loop('slider-item.html', `+(JSON.stringify(slider[i].Content))+`)
+			}
+		</ul>
+	</div>
+	<div class="splide__arrows">
+		<button class="splide__arrow splide__arrow--prev" aria-label="Go to last slide" aria-controls="splide01-track">
+			<i class="icon__angle-left"></i>
+		</button>
+		<button class="splide__arrow splide__arrow--next" aria-label="Next slide" aria-controls="splide01-track">
+			<i class="icon__angle-right"></i>
+		</button>
+	</div>
+</div>

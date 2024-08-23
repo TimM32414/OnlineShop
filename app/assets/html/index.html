@@ -12,7 +12,29 @@
 	@@include('components/layout/header.html', {})
 
 	<main>
-		Content
+		<section class="">
+			@@loop('components/slider/slider.html', 'components/slider/index-slider.json')
+		</section>
+
+		<section>
+			<div class="container">
+				@@loop('components/teaser/index-teaser.html', 'components/teaser/index-teaser.json')
+			</div>
+
+		</section>
+
+		<section class="headline">
+			<div class="container">
+				<h3>Fetured Items</h3>
+				<p>Shop for items based on what we featured in this week</p>
+			</div>
+		</section>
+
+		<section class="">
+			<div class="container">
+				@@loop('components/product/grid.html', 'components/product/index-list.json')
+			</div>
+		</section>
 	</main>
 
 	@@include('components/layout/footer.html', {})

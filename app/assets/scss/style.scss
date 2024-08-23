@@ -7,6 +7,7 @@
 @import 'mixins/breakpoints';
 @import 'mixins/icon';
 
+@import '../../../node_modules/@splidejs/splide/dist/css/splide.min';
 @import '../vendor/normalize/scss/normalize';
 
 @import 'components/base';
@@ -15,10 +16,14 @@
 @import 'components/buttons';
 @import 'components/lists';
 @import 'components/forms';
+@import 'components/slider';
 
+@import 'widgets/headline';
 @import 'widgets/product-item';
+@import 'widgets/teaser-item';
 
 @import 'layout/header';
 @import 'layout/footer';
 
 @import 'pages/catalog';
+@import 'pages/start';

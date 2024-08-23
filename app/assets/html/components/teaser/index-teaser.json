@@ -1,0 +1,38 @@
+[
+  {
+    "teaser": [
+      {
+        "Content": [
+          {
+            "teaserLink": "#",
+            "teaserTitle": "30% OFF<span>FOR WOMEN</span>",
+            "teaserPictureUrl": "img/teaser/for-women",
+            "teaserPictureWidth": "",
+            "teaserPictureHeight": ""
+          },
+          {
+            "teaserLink": "#",
+            "teaserTitle": "HOT DEAL<span>FOR MEN</span>",
+            "teaserPictureUrl": "img/teaser/for-men",
+            "teaserPictureWidth": "",
+            "teaserPictureHeight": ""
+          },
+          {
+            "teaserLink": "#",
+            "teaserTitle": "NEW ARRIVALS<span>FOR KIDS</span>",
+            "teaserPictureUrl": "img/teaser/for-kids",
+            "teaserPictureWidth": "",
+            "teaserPictureHeight": ""
+          },
+          {
+            "teaserLink": "#",
+            "teaserTitle": "LUXIROUS & TRENDY <span>ACCESORIES</span>",
+            "teaserPictureUrl": "img/teaser/accesories",
+            "teaserPictureWidth": "",
+            "teaserPictureHeight": ""
+          }
+        ]
+      }
+    ]
+  }
+]

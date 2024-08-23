@@ -1,0 +1,17 @@
+<li class="splide__slide">
+	<picture>
+		<source media="(min-width: 75rem)" width="" height="" srcset="@@slidePictureDeUrl">
+		<source media="(min-width: 64rem)" width="" height="" srcset="@@slidePictureTlUrl">
+		<source media="(min-width: 48rem)" width="" height="5" srcset="@@slidePictureTpUrl">
+		<source media="(min-width: 35.5rem)" width="" height="" srcset="@@slidePictureMlUrl">
+		<img src="@@slidePictureUrl" width="" height="" alt="Product 1" loading="lazy">
+	</picture>
+	@@if (slideTitle !== '') {
+		<h2>
+			@@slideTitle
+		</h2>
+	}
+</li>
+
+
+
